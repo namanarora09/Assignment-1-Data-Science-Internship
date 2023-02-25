@@ -14,7 +14,7 @@ if btn1 == True:
     st.warning("Please try another option", icon="⚠️")
 
 if btn2 == True:
-    img = image.imread("resources\images\Football_image.webp")
+    img = image.imread("resources/images/Football_image.webp")
     st.success("Perfect Choice")
     st.image(img)
     st.balloons()
